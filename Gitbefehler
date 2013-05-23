@@ -1,0 +1,23 @@
+//init new repository
+git init
+
+// get files from remote repository
+git clone [url] [target dir]
+
+//add files to repository								{add -a to commit to add all files}
+git add [files]
+
+// remove files from repository					{add --cached to keep file on hdd}
+git rm [files]
+
+// move files in repository
+git mv [files old] [files new]
+
+// commit files to repository			{add -a to commit to add all files}
+git commit -m '[message]'
+
+// check files to commit
+git status
+
+//upload to remote repository
+git push [adress] [branch name]
